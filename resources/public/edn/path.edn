@@ -1,0 +1,170 @@
+{:points {:all [{:id :conclave-park
+                 :name "The Conclave at Van Cortland Park"
+                 :type :story
+                 :description ""
+                 :coordinates [-73.886511 40.897084]}
+                {:id :escape-cemetery
+                 :name "Escape through the Woodlawn cemetery"
+                 :type :story
+                 :description ""
+                 :coordinates [-73.872843 40.888001]}
+                {:id :woodlawn-train-station
+                 :name "Running into Woodlawn train station"
+                 :type :story
+                 :description ""
+                 :coordinates [-73.862457 40.895746]}
+                {:id :node-1
+                 :name "Train path node 1"
+                 :type :path-all
+                 :description "First path node on train tracks between Woodlawn and Tremont."
+                 :coordinates [-73.876201 40.870479]}
+                {:id :node-2
+                 :name "Train path node 2"
+                 :type :path-all
+                 :description "Second path node on train tracks between Woodlawn and Tremont."
+                 :coordinates [-73.888614 40.863388]}
+                {:id :tremont-station
+                 :name "Fire at Tremont train station"
+                 :type :story
+                 :description "Fire"
+                 :coordinates [-73.899761 40.846890]}
+                {:id :orphans-fight
+                 :name "Orphans fight"
+                 :type :story
+                 :description ""
+                 :coordinates [-73.906381 40.846728]}
+                {:id :tremont-subway-station
+                 :name "Running into Tremont subway station"
+                 :type :story
+                 :description ""
+                 :coordinates [-73.909471 40.846387]}
+                {:id :node-3
+                 :name "Subway path node 1"
+                 :type :path-all
+                 :description "First path node on subway between Tremont and 96th."
+                 :coordinates [-73.922668 40.826873]}
+                {:id :node-4
+                 :name "Subway path node 2"
+                 :type :path-all
+                 :description "Second path node on subway between Tremont and 96th."
+                 :coordinates [-73.929909 40.829958]}
+                {:id :node-5
+                 :name "Subway path node 3"
+                 :type :path-all
+                 :description "Third path node on subway between Tremont and 96th."
+                 :coordinates [-73.940188 40.830356]}
+                {:id :node-6
+                 :name "Subway path node 4"
+                 :type :path-all
+                 :description "Fourth path node on subway between Tremont and 96th on 125th street."
+                 :coordinates [-73.953073 40.810009]}
+                {:id :node-7
+                 :name "Subway path node 5"
+                 :type :path-all
+                 :description "Fourth path node on subway between Tremont and 96th on 121st street."
+                 :coordinates [-73.953019 40.807613]}
+                {:id :96th-street-station
+                 :name "96th Street train station"
+                 :type :story
+                 :description "Cops split up"
+                 :coordinates [-73.964944 40.791752]}
+                {:id :union-square
+                 :name "Union Square station"
+                 :type :story
+                 :description ""
+                 :coordinates [-73.990381 40.734767]}
+                {:id :coney-island-walk
+                 :name "The Warriors walk on Coney Island"
+                 :type :story
+                 :description ""
+                 :coordinates [-73.979556 40.574408]}
+                {:id :coney-island-hidding
+                 :name "The Warriors hide from the Rouges"
+                 :type :story
+                 :description "Come out to play!"
+                 :coordinates [-73.979656 40.573572]}
+                {:id :beach
+                 :name "Coney Island beach finale"
+                 :type :story
+                 :description ""
+                 :coordinates [-73.979584 40.57251]}]
+          :riverside [{:id :node-8
+                       :name "Swan and others on foot node 1"
+                       :type :path-riverside
+                       :description "96th train station node on running from the cops."
+                       :coordinates [-73.964944 40.791752]}
+                      {:id :node-9
+                       :name "Swan and the others on foot node 2"
+                       :type :path-riverside
+                       :description "Second node on path running from Baseball Furies on West End Ave."
+                       :coordinates [-73.973227 40.795240]}
+                      {:id :node-10
+                       :name "Swan and the others on foot node 3"
+                       :type :path-riverside
+                       :description "Third node on path running from Baseball Furies on 100th street."
+                       :coordinates [-73.971339 40.797819]}
+                      {:id :node-11
+                       :name "Swan and the others on foot node 4"
+                       :type :path-riverside
+                       :description "Fourth node on path running from Baseball Furies by the Fireman's memorial"
+                       :coordinates [-73.973259 40.798619]}
+                      {:id :furies-fight
+                       :name "Baseball Furies park fight"
+                       :type :story
+                       :description ""
+                       :coordinates [-73.974480 40.798779]}
+                      {:id :undercover-cop
+                       :name "Undercover cop"
+                       :type :story
+                       :description ""
+                       :coordinates [-73.974197 40.798262]}
+                      {:id :park-swan-split
+                       :name "Swan splits on his own"
+                       :type :story
+                       :description "Stone staircase"
+                       :coordinates [-73.974230 40.797872]}]
+          :swan [{:id :node-12
+                  :name "Swan on foot node 1"
+                  :type :path-swan
+                  :description "Lonely Swan at stone staircase on the way back to 96th."
+                  :coordinates [-73.974230 40.797872]}
+                 {:id :node-13
+                  :name "Swan on foot node 2"
+                  :type :path-swan
+                  :description "Lonely Swan climbs to 99th street on the way back to 96th."
+                  :coordinates [-73.973442 40.797864]}
+                 {:id :node-14
+                  :name "Swan on foot node 3"
+                  :type :path-swan
+                  :description "Lonely Swan on path back to 96th on Amsterdam Ave."
+                  :coordinates [-73.968962 40.795988]}
+                 {:id :node-15
+                  :name "Swan on foot node 4"
+                  :type :path-swan
+                  :description "Lonely Swan on path back to 96th on 96th corner."
+                  :coordinates [-73.970379 40.794022]}
+                 {:id :node-16
+                  :name "Swan on foot node 5"
+                  :type :path-swan
+                  :description "Lonely swan back at 96th street station"
+                  :coordinates [-73.964944 40.791752]}
+                 {:id :node-17
+                  :name "Swan at Union Square station"
+                  :type :path-swan
+                  :description "Swan and Mercy arrived at Union Square station."
+                  :coordinates [-73.990381 40.734767]}]
+          :lizzies [{:id :node-18
+                     :name "Gang seduced by the Lizzies node 1."
+                     :type :path-lizzies
+                     :description "Gang seduced by the Lizzies go from Union Square station."
+                     :coordinates [-73.990381 40.734767]}
+                    {:id :lizzies-hideout
+                     :name "Lizzies gang hideout"
+                     :type :story
+                     :description ""
+                     :coordinates [-73.990801 40.763454]}
+                    {:id :node-19
+                     :name "Gang seduced by the Lizzies node 2."
+                     :type :path-lizzies
+                     :description "Gang seduced by the Lizzies back at Union Square station."
+                     :coordinates [-73.990381 40.734767]}]}}
