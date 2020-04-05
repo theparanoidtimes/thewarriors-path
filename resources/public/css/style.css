@@ -1,6 +1,9 @@
 canvas {
     cursor: pointer;
 }
+.copy {
+    font-size: 13px;
+}
 .map {
     width: 720px;
     height: 720px;

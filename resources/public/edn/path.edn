@@ -1,17 +1,18 @@
 {:points {:all [{:id :conclave-park
                  :name "The Conclave at Van Cortland Park"
                  :type :story
-                 :description ""
+                 :description "The Conclave of the gangs is held here by Cyrus,
+leader of the Gramercy Riffs. The leader of the Rouges, Luther, kills Cyrus and blames the Warriors for it. The Warriors warlord Cleon is killed during the police raid."
                  :coordinates [-73.886511 40.897084]}
                 {:id :escape-cemetery
                  :name "Escape through the Woodlawn cemetery"
                  :type :story
-                 :description ""
+                 :description "The Warriors escape from the police thorough the cemetery stopping to regroup and scout ahead. The goal being to make it to the train for Coney Island. Swan takes charge of the group."
                  :coordinates [-73.872843 40.888001]}
                 {:id :woodlawn-train-station
                  :name "Running into Woodlawn train station"
                  :type :story
-                 :description ""
+                 :description "The Warriors almost make it to the Woodlawn station and into the train after being chased by the Turnbull AC's."
                  :coordinates [-73.862457 40.895746]}
                 {:id :node-1
                  :name "Train path node 1"
@@ -26,17 +27,17 @@
                 {:id :tremont-station
                  :name "Fire at Tremont train station"
                  :type :story
-                 :description "Fire"
+                 :description "There was a fire near the train tracks stopping all traffic and forcing the Warriors to continue on foot through Tremont on the Bronx."
                  :coordinates [-73.899761 40.846890]}
                 {:id :orphans-fight
                  :name "Orphans fight"
                  :type :story
-                 :description ""
+                 :description "While on foot the Warriors run into the Orphans, a low level gang that deny them passage thorough their turf after being provoked by Mercy. Warriors face off against them and throw a Molotov cocktail on a nearby car and run for the subway station. Mercy decides to go with them."
                  :coordinates [-73.906381 40.846728]}
                 {:id :tremont-subway-station
                  :name "Running into Tremont subway station"
                  :type :story
-                 :description ""
+                 :description "The Warriors make it to the Tremont subway station."
                  :coordinates [-73.909471 40.846387]}
                 {:id :node-3
                  :name "Subway path node 1"
@@ -64,29 +65,29 @@
                  :description "Fourth path node on subway between Tremont and 96th on 121st street."
                  :coordinates [-73.953019 40.807613]}
                 {:id :96th-street-station
-                 :name "96th Street train station"
+                 :name "96th Street subway station"
                  :type :story
-                 :description "Cops split up"
+                 :description "The train stops and the cops raid the station forcing the Warriors to split up. Vermin, Cochise and Rembrandt make the train to Union Square. Fox, with Mercy following fights with a police officer and ends up on the train tracks where he's run over while Mercy manages to escape. Swan, Ajax, Snow and Cowboy go above ground where they're spotted by the Baseball Furies gang."
                  :coordinates [-73.964944 40.791752]}
                 {:id :union-square
                  :name "Union Square station"
                  :type :story
-                 :description ""
+                 :description "The first ones that arrive are Vermin, Cochise and Rembrandt where they're seduced by the Lizzies and escorted to their hideout. After finding out that they are being framed they are back at the station and regroup with others. A fight with the Punks gang occurs in the men's bathroom. After defeating them the Warriors continue on to Coney."
                  :coordinates [-73.990381 40.734767]}
                 {:id :coney-island-walk
                  :name "The Warriors walk on Coney Island"
                  :type :story
-                 :description ""
+                 :description "Arriving at Coney, the Warriors take a stroll through their neighborhood when they stop that they are being stalked by the Rouges."
                  :coordinates [-73.979556 40.574408]}
                 {:id :coney-island-hidding
                  :name "The Warriors hide from the Rouges"
                  :type :story
-                 :description "Come out to play!"
+                 :description "The Warriors hide under the boardwalk and arm themselves for the fight with the Rouges. Luther shouts: \"Warriors, come out to play!\""
                  :coordinates [-73.979656 40.573572]}
                 {:id :beach
                  :name "Coney Island beach finale"
                  :type :story
-                 :description ""
+                 :description "The Warriors and the Rouges prepare for the final standoff when the Riffs come in to do justice for the Luther's murder of Cyrus."
                  :coordinates [-73.979584 40.57251]}]
           :riverside [{:id :node-8
                        :name "Swan and others on foot node 1"
@@ -111,17 +112,17 @@
                       {:id :furies-fight
                        :name "Baseball Furies park fight"
                        :type :story
-                       :description ""
+                       :description "Tired from running from the Furies, Swan and others engage in an all-out fight where they emerge victorious. They head back to the 96th street station."
                        :coordinates [-73.974480 40.798779]}
                       {:id :undercover-cop
                        :name "Undercover cop"
                        :type :story
-                       :description ""
+                       :description "Ajax spots a lonely woman sitting on a park bench and decides to make a move. The woman is an undercover cop and Ajax is arrested."
                        :coordinates [-73.974197 40.798262]}
                       {:id :park-swan-split
                        :name "Swan splits on his own"
                        :type :story
-                       :description "Stone staircase"
+                       :description "Ajax, Snow and Cowboy stop at the stone staircase where they agree that Swan will continue alone to the Union Square station and the other two will check on Ajax. After finding out that Ajax is arrested, both of them also head back to 96th station and ultimately to Union Square. Swan meets up with Mercy and the two of them continue on foot to Union through the subway train tunnels."
                        :coordinates [-73.974230 40.797872]}]
           :swan [{:id :node-12
                   :name "Swan on foot node 1"
@@ -161,7 +162,7 @@
                     {:id :lizzies-hideout
                      :name "Lizzies gang hideout"
                      :type :story
-                     :description ""
+                     :description "Vermin, Cochise, and Rembrandt end up in Lizzies hideout where they are fooled to have a good time only to find out they are being framed, and after the fight they manage to escape back to Union Square."
                      :coordinates [-73.990801 40.763454]}
                     {:id :node-19
                      :name "Gang seduced by the Lizzies node 2."

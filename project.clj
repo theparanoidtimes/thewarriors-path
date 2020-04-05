@@ -28,7 +28,9 @@
                 :compiler {:output-to "resources/public/js/compiled/thewarriors_path.js"
                            :main thewarriors-path.core
                            :optimizations :advanced
-                           :pretty-print false}}]}
+                           :pretty-print false
+                           :closure-extra-annotations ("api" "observable")
+                           :closure-warnings {:externs-validation :off}}}]}
   :figwheel {:css-dirs ["resources/public/css"]
              :server-logfile "logs/figwheel-logfile.log"
              ;; :server-logfile false
