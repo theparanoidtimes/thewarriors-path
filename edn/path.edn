@@ -74,10 +74,75 @@ leader of the Gramercy Riffs. The leader of the Rouges, Luther, kills Cyrus and 
                  :type :story
                  :description "The first ones that arrive are Vermin, Cochise and Rembrandt where they're seduced by the Lizzies and escorted to their hideout. After finding out that they are being framed they are back at the station and regroup with others. A fight with the Punks gang occurs in the men's bathroom. After defeating them the Warriors continue on to Coney."
                  :coordinates [-73.990381 40.734767]}
+                {:id :node-8
+                 :name "Train to Coney node 1"
+                 :type :path-all
+                 :description "The Gang is in a train for Coney 10th Street."
+                 :coordinates [-73.991445 40.731734]}
+                {:id :node-9
+                 :name "Train to Coney node 2"
+                 :type :path-all
+                 :description "The Gang is in a train for Coney Canal Street."
+                 :coordinates [-74.001795 40.719420]}
+                {:id :node-10
+                 :name "Train to Coney node 3"
+                 :type :path-all
+                 :description "The Gang is in a train for Coney Mulberry Street."
+                 :coordinates [-73.998770 40.717180]}
+                {:id :node-11
+                 :name "Train to Coney node 4"
+                 :type :path-all
+                 :description "The Gang is in a train for Coney Manhattan Bridge."
+                 :coordinates [-73.996104 40.716212]}
+                {:id :node-12
+                 :name "Train to Coney node 5"
+                 :type :path-all
+                 :description "The Gang is in a train for Coney Prospect park."
+                 :coordinates [-73.962429 40.663061]}
+                {:id :node-11
+                 :name "Train to Coney node 6"
+                 :type :path-all
+                 :description "The Gang is in a train for Coney Parkside Avenue."
+                 :coordinates [-73.961248 40.655305]}
+                {:id :node-12
+                 :name "Train to Coney node 7"
+                 :type :path-all
+                 :description "The Gang is in a train for Coney Beverly Road."
+                 :coordinates [-73.964526 40.644271]}
+                {:id :node-13
+                 :name "Train to Coney node 8"
+                 :type :path-all
+                 :description "The Gang is in a train for Coney Sheepshead Bay."
+                 :coordinates [-73.954154 40.586741]}
+                {:id :node-14
+                 :name "Train to Coney node 9"
+                 :type :path-all
+                 :description "The Gang is in a train for Coney Brighton Beach."
+                 :coordinates [-73.958073 40.578311]}
+                {:id :node-15
+                 :name "Train to Coney node 10"
+                 :type :path-all
+                 :description "The Gang is in a train for Coney Surf Avenue."
+                 :coordinates [-73.968555 40.576298]}
+                {:id :node-16
+                 :name "Train to Coney node 11"
+                 :type :path-all
+                 :description "The Gang is in a train for Coney Surf Avenue bend 1."
+                 :coordinates [-73.969198 40.574978]}
+                {:id :node-17
+                 :name "Train to Coney node 12"
+                 :type :path-all
+                 :description "The Gang is in a train for Coney Surf Avenue bend 2."
+                 :coordinates [-73.971988 40.574571]}
+                {:id :node-18
+                 :name "Train to Coney node 13"
+                 :type :path-all
+                 :description "The Gang is in a train for Coney Jones Walk."
+                 :coordinates [-73.978833 40.575475]}
                 {:id :coney-island-walk
                  :name "The Warriors walk on Coney Island"
                  :type :story
-                 :description "Arriving at Coney, the Warriors take a stroll through their neighborhood when they stop that they are being stalked by the Rouges."
+                 :description "Arriving at Coney, the Warriors take a stroll through their neighborhood when they stop and realize that they are being stalked by the Rouges."
                  :coordinates [-73.979556 40.574408]}
                 {:id :coney-island-hidding
                  :name "The Warriors hide from the Rouges"
@@ -89,22 +154,22 @@ leader of the Gramercy Riffs. The leader of the Rouges, Luther, kills Cyrus and 
                  :type :story
                  :description "The Warriors and the Rouges prepare for the final standoff when the Riffs come in to do justice for the Luther's murder of Cyrus."
                  :coordinates [-73.979584 40.57251]}]
-          :riverside [{:id :node-8
+          :riverside [{:id :node-19
                        :name "Swan and others on foot node 1"
                        :type :path-riverside
                        :description "96th train station node on running from the cops."
                        :coordinates [-73.964944 40.791752]}
-                      {:id :node-9
+                      {:id :node-20
                        :name "Swan and the others on foot node 2"
                        :type :path-riverside
                        :description "Second node on path running from Baseball Furies on West End Ave."
                        :coordinates [-73.973227 40.795240]}
-                      {:id :node-10
+                      {:id :node-21
                        :name "Swan and the others on foot node 3"
                        :type :path-riverside
                        :description "Third node on path running from Baseball Furies on 100th street."
                        :coordinates [-73.971339 40.797819]}
-                      {:id :node-11
+                      {:id :node-22
                        :name "Swan and the others on foot node 4"
                        :type :path-riverside
                        :description "Fourth node on path running from Baseball Furies by the Fireman's memorial"
@@ -124,47 +189,107 @@ leader of the Gramercy Riffs. The leader of the Rouges, Luther, kills Cyrus and 
                        :type :story
                        :description "Ajax, Snow and Cowboy stop at the stone staircase where they agree that Swan will continue alone to the Union Square station and the other two will check on Ajax. After finding out that Ajax is arrested, both of them also head back to 96th station and ultimately to Union Square. Swan meets up with Mercy and the two of them continue on foot to Union through the subway train tunnels."
                        :coordinates [-73.974230 40.797872]}]
-          :swan [{:id :node-12
+          :swan [{:id :node-23
                   :name "Swan on foot node 1"
                   :type :path-swan
                   :description "Lonely Swan at stone staircase on the way back to 96th."
                   :coordinates [-73.974230 40.797872]}
-                 {:id :node-13
+                 {:id :node-24
                   :name "Swan on foot node 2"
                   :type :path-swan
                   :description "Lonely Swan climbs to 99th street on the way back to 96th."
                   :coordinates [-73.973442 40.797864]}
-                 {:id :node-14
+                 {:id :node-25
                   :name "Swan on foot node 3"
                   :type :path-swan
                   :description "Lonely Swan on path back to 96th on Amsterdam Ave."
                   :coordinates [-73.968962 40.795988]}
-                 {:id :node-15
+                 {:id :node-26
                   :name "Swan on foot node 4"
                   :type :path-swan
                   :description "Lonely Swan on path back to 96th on 96th corner."
                   :coordinates [-73.970379 40.794022]}
-                 {:id :node-16
+                 {:id :node-27
                   :name "Swan on foot node 5"
                   :type :path-swan
                   :description "Lonely swan back at 96th street station"
                   :coordinates [-73.964944 40.791752]}
-                 {:id :node-17
+                 {:id :node-28
                   :name "Swan at Union Square station"
                   :type :path-swan
                   :description "Swan and Mercy arrived at Union Square station."
                   :coordinates [-73.990381 40.734767]}]
-          :lizzies [{:id :node-18
-                     :name "Gang seduced by the Lizzies node 1."
+          :lizzies [{:id :node-29
+                     :name "Lizzies walk node 1"
                      :type :path-lizzies
                      :description "Gang seduced by the Lizzies go from Union Square station."
                      :coordinates [-73.990381 40.734767]}
+                    {:id :node-30
+                     :name "Lizzies walk node 2"
+                     :type :path-lizzies
+                     :description "Gang slow walks with Lizzies to their hideout Union Square end."
+                     :coordinates [-73.990329 40.737133]}
+                    {:id :node-31
+                     :name "Lizzies walk node 3"
+                     :type :path-lizzies
+                     :description "Gang slow walks with Lizzies to their hideout Madison Square park."
+                     :coordinates [-73.988982 40.742250]}
+                    {:id :node-32
+                     :name "Lizzies walk node 4"
+                     :type :path-lizzies
+                     :description "Gang slow walks with Lizzies to their hideout Broadway start."
+                     :coordinates [-73.989218 40.742555]}
+                    {:id :node-33
+                     :name "Lizzies walk node 5"
+                     :type :path-lizzies
+                     :description "Gang slow walks with Lizzies to their hideout Times Square."
+                     :coordinates [-73.986429 40.755783]}
+                    {:id :node-34
+                     :name "Lizzies walk node 6"
+                     :type :path-lizzies
+                     :description "Gang slow walks with Lizzies to their hideout 9th Avenue."
+                     :coordinates [-73.992630 40.758400]}
+                    {:id :node-35
+                     :name "Lizzies walk node 7"
+                     :type :path-lizzies
+                     :description "Gang slow walks with Lizzies to their hideout 42nd Street."
+                     :coordinates [-73.989390 40.762845]}
                     {:id :lizzies-hideout
                      :name "Lizzies gang hideout"
                      :type :story
                      :description "Vermin, Cochise, and Rembrandt end up in Lizzies hideout where they are fooled to have a good time only to find out they are being framed, and after the fight they manage to escape back to Union Square."
                      :coordinates [-73.990801 40.763454]}
-                    {:id :node-19
+                    {:id :node-36
+                     :name "Lizzies runaway node 1"
+                     :type :path-lizzies
+                     :description "Gang runs away from Lizzies back to Union end of 49th Street."
+                     :coordinates [-73.992244 40.764048]}
+                    {:id :node-37
+                     :name "Lizzies runaway node 2"
+                     :type :path-lizzies
+                     :description "Gang runs away from Lizzies back to Union 30th Street."
+                     :coordinates [-74.000988 40.752085]}
+                    {:id :node-38
+                     :name "Lizzies runaway node 3"
+                     :type :path-lizzies
+                     :description "Gang runs away from Lizzies back to Union 6th Avenue."
+                     :coordinates [-73.989615 40.747273]}
+                    {:id :node-39
+                     :name "Lizzies runaway node 4"
+                     :type :path-lizzies
+                     :description "Gang runs away from Lizzies back to Union 17th Street."
+                     :coordinates [-73.995463 40.739258]}
+                    {:id :node-40
+                     :name "Lizzies runaway node 5"
+                     :type :path-lizzies
+                     :description "Gang runs away from Lizzies back to Union Broadway."
+                     :coordinates [-73.990334 40.737129]}
+                    {:id :node-41
+                     :name "Lizzies runaway node 6"
+                     :type :path-lizzies
+                     :description "Gang runs away from Lizzies back to Union 14th Street."
+                     :coordinates [-73.991649 40.735308]}
+                    {:id :node-42
                      :name "Gang seduced by the Lizzies node 2."
                      :type :path-lizzies
                      :description "Gang seduced by the Lizzies back at Union Square station."
