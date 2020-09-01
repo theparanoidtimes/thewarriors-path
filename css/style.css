@@ -1,20 +1,31 @@
+a {
+    color: #ba1401;
+    font-style: bold;
+}
+a:hover {
+    color: #ba1401;
+    font-style: bold;
+}
+body {
+    background-color: black;
+}
 canvas {
     cursor: pointer;
+    border-radius: 10px;
 }
 .copy {
     font-size: 13px;
 }
-.map {
-    width: 720px;
-    height: 720px;
+.row {
+    color: #ba1401;
 }
 .ol-popup {
     position: absolute;
-    background-color: white;
+    background-color: black;
     box-shadow: 0 1px 4px rgba(0,0,0,0.2);
     padding: 15px;
     border-radius: 10px;
-    border: 1px solid #cccccc;
+    border: 1px solid #ba1401;
     bottom: 12px;
     left: -50px;
     min-width: 280px;
@@ -29,13 +40,13 @@ canvas {
     pointer-events: none;
 }
 .ol-popup:after {
-    border-top-color: white;
+    border-top-color: black;
     border-width: 10px;
     left: 48px;
     margin-left: -10px;
 }
 .ol-popup:before {
-    border-top-color: #cccccc;
+    border-top-color: #ba1401;
     border-width: 11px;
     left: 48px;
     margin-left: -11px;
